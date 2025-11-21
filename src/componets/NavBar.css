@@ -1,0 +1,61 @@
+/* NavBar.css */
+.header {
+    width: 100%;
+    padding: 1.25rem 0.625rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav {
+    display: flex;
+    width: 100%;
+    max-width: 1120px;
+    margin-inline: auto;
+    position: relative;
+  }
+  
+  .logo {
+    cursor: pointer;
+  }
+  
+  .nav-center {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+  }
+  
+  .nav-item {
+    padding: 0 1.25rem;
+    font-size: 0.875rem;
+    cursor: pointer;
+    color: #9ca3af; /* gray-400 */
+    transition: all 0.3s ease;
+  }
+  
+  .nav-item:hover {
+    color: #ffffff;
+  }
+  
+  .nav-end {
+    display: flex;
+    align-items: baseline;
+    gap: 1.75rem;
+  }
+  
+  @media (max-width: 640px) {
+    .header {
+      padding-left: 1.25rem;
+      padding-right: 1.25rem;
+    }
+  
+    .nav-center {
+      display: none;
+    }
+  
+    .nav-end {
+      justify-content: flex-end;
+      flex: 1;
+    }
+  }
+  
