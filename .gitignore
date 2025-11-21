@@ -48,5 +48,4 @@ coverage/
 tmp/
 temp/
 
-# Large media files (add these manually if needed)
-assets/videos/
+# Large media files are now tracked with Git LFS
